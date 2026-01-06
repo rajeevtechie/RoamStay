@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+#experiences {
+    height: 100%px;
+    width: 100%;
+    border: 1px rgb(242, 212, 212) solid;
+    box-shadow: 0px -2px 3px rgb(247, 222, 222),
+        0px 2px 3px rgb(247, 222, 222);
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+
+}
+
+#experiences .experience-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 23px;
+
+}
+
+#experiences p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+
+#experiences .experience-section #first {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 233px;
+    width: 200px;
+}
+
+#experiences .experience-section #first a {
+    font-size: 14px;
+}
+.sub-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 4px;
+}
